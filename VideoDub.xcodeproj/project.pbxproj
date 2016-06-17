@@ -14,6 +14,12 @@
 		AA5E7E991D14515400C04A62 /* VideoDub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5E7E971D14515400C04A62 /* VideoDub.xcdatamodeld */; };
 		AA5E7E9B1D14515400C04A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5E7E9A1D14515400C04A62 /* Assets.xcassets */; };
 		AA5E7E9E1D14515400C04A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5E7E9C1D14515400C04A62 /* LaunchScreen.storyboard */; };
+		CE52EE101D1456240048BDE4 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52EE0F1D1456240048BDE4 /* Data.m */; };
+		CE52EE131D1456ED0048BDE4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE52EE111D1456ED0048BDE4 /* Model.xcdatamodeld */; };
+		CE52EE1C1D1458430048BDE4 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52EE151D1458430048BDE4 /* User+CoreDataProperties.m */; };
+		CE52EE1D1D1458430048BDE4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52EE171D1458430048BDE4 /* User.m */; };
+		CE52EE1E1D1458430048BDE4 /* Videos+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52EE191D1458430048BDE4 /* Videos+CoreDataProperties.m */; };
+		CE52EE1F1D1458430048BDE4 /* Videos.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52EE1B1D1458430048BDE4 /* Videos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,17 @@
 		AA5E7E9A1D14515400C04A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA5E7E9D1D14515400C04A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5E7E9F1D14515400C04A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE52EE0E1D1456240048BDE4 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		CE52EE0F1D1456240048BDE4 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		CE52EE121D1456ED0048BDE4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CE52EE141D1458430048BDE4 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE52EE151D1458430048BDE4 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE52EE161D1458430048BDE4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CE52EE171D1458430048BDE4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CE52EE181D1458430048BDE4 /* Videos+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Videos+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE52EE191D1458430048BDE4 /* Videos+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Videos+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE52EE1A1D1458430048BDE4 /* Videos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Videos.h; sourceTree = "<group>"; };
+		CE52EE1B1D1458430048BDE4 /* Videos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Videos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +61,17 @@
 		AA5E7E7F1D14515300C04A62 = {
 			isa = PBXGroup;
 			children = (
+				CE52EE0E1D1456240048BDE4 /* Data.h */,
+				CE52EE0F1D1456240048BDE4 /* Data.m */,
+				CE52EE111D1456ED0048BDE4 /* Model.xcdatamodeld */,
+				CE52EE141D1458430048BDE4 /* User+CoreDataProperties.h */,
+				CE52EE151D1458430048BDE4 /* User+CoreDataProperties.m */,
+				CE52EE161D1458430048BDE4 /* User.h */,
+				CE52EE171D1458430048BDE4 /* User.m */,
+				CE52EE181D1458430048BDE4 /* Videos+CoreDataProperties.h */,
+				CE52EE191D1458430048BDE4 /* Videos+CoreDataProperties.m */,
+				CE52EE1A1D1458430048BDE4 /* Videos.h */,
+				CE52EE1B1D1458430048BDE4 /* Videos.m */,
 				AA5E7E8A1D14515400C04A62 /* VideoDub */,
 				AA5E7E891D14515300C04A62 /* Products */,
 			);
@@ -152,10 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE52EE1D1D1458430048BDE4 /* User.m in Sources */,
+				CE52EE1C1D1458430048BDE4 /* User+CoreDataProperties.m in Sources */,
+				CE52EE101D1456240048BDE4 /* Data.m in Sources */,
 				AA5E7E931D14515400C04A62 /* ViewController.m in Sources */,
+				CE52EE1E1D1458430048BDE4 /* Videos+CoreDataProperties.m in Sources */,
 				AA5E7E901D14515400C04A62 /* AppDelegate.m in Sources */,
 				AA5E7E8D1D14515400C04A62 /* main.m in Sources */,
+				CE52EE1F1D1458430048BDE4 /* Videos.m in Sources */,
 				AA5E7E991D14515400C04A62 /* VideoDub.xcdatamodeld in Sources */,
+				CE52EE131D1456ED0048BDE4 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +340,7 @@
 				AA5E7EA41D14515400C04A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -317,6 +352,16 @@
 			);
 			currentVersion = AA5E7E981D14515400C04A62 /* VideoDub.xcdatamodel */;
 			path = VideoDub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		CE52EE111D1456ED0048BDE4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE52EE121D1456ED0048BDE4 /* Model.xcdatamodel */,
+			);
+			currentVersion = CE52EE121D1456ED0048BDE4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
