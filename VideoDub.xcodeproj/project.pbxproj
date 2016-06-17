@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2B88E01D146C65003C0513 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B88DF1D146C65003C0513 /* Button.png */; };
+		3B2B88E21D146FFF003C0513 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B88E11D146FFF003C0513 /* record.png */; };
+		3B2B88EA1D14755F003C0513 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B88E91D14755F003C0513 /* Play.png */; };
+		3B2B88EC1D1475D1003C0513 /* Fast-Foward.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B88EB1D1475D1003C0513 /* Fast-Foward.png */; };
+		3B2B88EE1D147660003C0513 /* Rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B88ED1D147660003C0513 /* Rewind.png */; };
 		AA5E7E8D1D14515400C04A62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E7E8C1D14515400C04A62 /* main.m */; };
 		AA5E7E901D14515400C04A62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E7E8F1D14515400C04A62 /* AppDelegate.m */; };
 		AA5E7E931D14515400C04A62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E7E921D14515400C04A62 /* ViewController.m */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B2B88DF1D146C65003C0513 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		3B2B88E11D146FFF003C0513 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
+		3B2B88E91D14755F003C0513 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		3B2B88EB1D1475D1003C0513 /* Fast-Foward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fast-Foward.png"; sourceTree = "<group>"; };
+		3B2B88ED1D147660003C0513 /* Rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rewind.png; sourceTree = "<group>"; };
 		AA5E7E881D14515300C04A62 /* VideoDub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoDub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E7E8C1D14515400C04A62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA5E7E8E1D14515400C04A62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +87,11 @@
 		AA5E7E8B1D14515400C04A62 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B2B88DF1D146C65003C0513 /* Button.png */,
+				3B2B88EB1D1475D1003C0513 /* Fast-Foward.png */,
+				3B2B88ED1D147660003C0513 /* Rewind.png */,
+				3B2B88E91D14755F003C0513 /* Play.png */,
+				3B2B88E11D146FFF003C0513 /* record.png */,
 				AA5E7E8C1D14515400C04A62 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,8 +154,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2B88E21D146FFF003C0513 /* record.png in Resources */,
+				3B2B88EC1D1475D1003C0513 /* Fast-Foward.png in Resources */,
 				AA5E7E9E1D14515400C04A62 /* LaunchScreen.storyboard in Resources */,
+				3B2B88E01D146C65003C0513 /* Button.png in Resources */,
+				3B2B88EA1D14755F003C0513 /* Play.png in Resources */,
 				AA5E7E9B1D14515400C04A62 /* Assets.xcassets in Resources */,
+				3B2B88EE1D147660003C0513 /* Rewind.png in Resources */,
 				AA5E7E961D14515400C04A62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +326,7 @@
 				AA5E7EA41D14515400C04A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
