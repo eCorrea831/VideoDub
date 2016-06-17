@@ -19,6 +19,10 @@
 		AA5E7E991D14515400C04A62 /* VideoDub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5E7E971D14515400C04A62 /* VideoDub.xcdatamodeld */; };
 		AA5E7E9B1D14515400C04A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5E7E9A1D14515400C04A62 /* Assets.xcassets */; };
 		AA5E7E9E1D14515400C04A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5E7E9C1D14515400C04A62 /* LaunchScreen.storyboard */; };
+		AA5E7EAD1D147BF100C04A62 /* PopularVideosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E7EAC1D147BF100C04A62 /* PopularVideosTableViewController.m */; };
+		AA5E7EB01D147C5D00C04A62 /* YoutubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E7EAF1D147C5D00C04A62 /* YoutubeVideo.m */; };
+		AA5E7EB91D14978300C04A62 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E7EB81D14978300C04A62 /* WebViewController.m */; };
+		AA5E7EBB1D1497E700C04A62 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E7EBA1D1497E700C04A62 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,13 @@
 		AA5E7E9A1D14515400C04A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA5E7E9D1D14515400C04A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5E7E9F1D14515400C04A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5E7EAB1D147BF100C04A62 /* PopularVideosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularVideosTableViewController.h; sourceTree = "<group>"; };
+		AA5E7EAC1D147BF100C04A62 /* PopularVideosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularVideosTableViewController.m; sourceTree = "<group>"; };
+		AA5E7EAE1D147C5D00C04A62 /* YoutubeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeVideo.h; sourceTree = "<group>"; };
+		AA5E7EAF1D147C5D00C04A62 /* YoutubeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeVideo.m; sourceTree = "<group>"; };
+		AA5E7EB71D14978300C04A62 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AA5E7EB81D14978300C04A62 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AA5E7EBA1D1497E700C04A62 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5E7EBB1D1497E700C04A62 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +66,7 @@
 		AA5E7E7F1D14515300C04A62 = {
 			isa = PBXGroup;
 			children = (
+				AA5E7EBA1D1497E700C04A62 /* WebKit.framework */,
 				AA5E7E8A1D14515400C04A62 /* VideoDub */,
 				AA5E7E891D14515300C04A62 /* Products */,
 			);
@@ -75,6 +88,12 @@
 				AA5E7E911D14515400C04A62 /* ViewController.h */,
 				AA5E7E921D14515400C04A62 /* ViewController.m */,
 				AA5E7E941D14515400C04A62 /* Main.storyboard */,
+				AA5E7EAB1D147BF100C04A62 /* PopularVideosTableViewController.h */,
+				AA5E7EAC1D147BF100C04A62 /* PopularVideosTableViewController.m */,
+				AA5E7EB71D14978300C04A62 /* WebViewController.h */,
+				AA5E7EB81D14978300C04A62 /* WebViewController.m */,
+				AA5E7EAE1D147C5D00C04A62 /* YoutubeVideo.h */,
+				AA5E7EAF1D147C5D00C04A62 /* YoutubeVideo.m */,
 				AA5E7E9A1D14515400C04A62 /* Assets.xcassets */,
 				AA5E7E9C1D14515400C04A62 /* LaunchScreen.storyboard */,
 				AA5E7E9F1D14515400C04A62 /* Info.plist */,
@@ -173,9 +192,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5E7E931D14515400C04A62 /* ViewController.m in Sources */,
+				AA5E7EB91D14978300C04A62 /* WebViewController.m in Sources */,
 				AA5E7E901D14515400C04A62 /* AppDelegate.m in Sources */,
 				AA5E7E8D1D14515400C04A62 /* main.m in Sources */,
+				AA5E7EAD1D147BF100C04A62 /* PopularVideosTableViewController.m in Sources */,
 				AA5E7E991D14515400C04A62 /* VideoDub.xcdatamodeld in Sources */,
+				AA5E7EB01D147C5D00C04A62 /* YoutubeVideo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
